@@ -1,0 +1,36 @@
+button {
+  display: block;
+  margin: 0.9rem 0;
+  cursor: pointer;
+  padding: 0.3rem 2rem;
+}
+
+button.submit {
+  padding: 1rem 5rem;
+  font-size: 1.3rem;
+  background-color: rgb(231, 89, 7);
+  color: white;
+  border: none;
+
+  margin-top: 3rem;
+}
+
+div.card {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  padding: 2rem 4rem;
+  color: white;
+  /* font-size: 1rem; */
+}
+
+div.timer {
+  position: fixed;
+  top: 6rem;
+  right: 5rem;
+  background-color: lightgray;
+  padding: 2rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
